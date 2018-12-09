@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dating website</title>
+</head>
+<body>
+<h1>Please Enter Your Details For Our Dating Website</h1>
+<form>
+    <fieldset>
+        <legend>Your face</legend>
+        Your image <input type="file" name="yourimage" id="image" required><br>
+        Image preview: <input type="image" id="priview" name="preview"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Your general details</legend>
+        Name: <input type="text" placeholder="Your full name"><br>
+        Gender: <input type="radio" name="gender" value="low">  Male <input type="radio" name="gender" value="low"> Female<br>
+        Age: <input type="number" value="18" required><br>
+        Date of birth: <input type="date" name="date"><br>
+        Favorite color:<input type="color" name="color"><br>
+        Which country: <select name="contries" >
+        <option value=""></option>
+        <option value="uk"> United Kingdom </option>
+        <option value="au"> Australia </option>
+        <option value="srb">Serbia </option>
+        <option value="rus"> Russia </option>
+        <option value="mon"> Montenegro </option> <br>
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend> Your indicators </legend>
+         Height: Short<input type="range" min="0" max="100"> Tall <br>
+         Salary: Poor <input type="range" min="0" max="100"> Rich <br>
+    </fieldset>
+    <fieldset>
+        <legend>Your contack information</legend>
+        Email: <input type="email" name="email" required><br>
+        Mobile:<input type="tel" name="telephone"><br>
+
+        Adress: <textarea rows="1" cols="60" name="adress"></textarea><br>
+        Method of contact you: <input type="checkbox" name="email" value="low">Email<input type="checkbox" name="email" value="low"> Whats up<input type="checkbox" name="email" value="low"> In-app chat
+    </fieldset>
+</form>
+</body>
+</html>
